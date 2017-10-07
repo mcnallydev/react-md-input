@@ -1,0 +1,43 @@
+{
+  "name": "react-md-input",
+  "version": "0.0.1",
+  "description": "React Component Material Design Input",
+  "main": "index.js",
+  "repository": "https://github.com/mcnallydev/react-md-input.git",
+  "author": "Paulo McNally <paulomcnally@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "webpack-dev-server",
+    "docs": "NODE_ENV=production webpack -p",
+    "build": "babel src -d dist",
+    "clean": "rm -rf dist",
+    "dist": "yarn run clean && yarn run build"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "styled-components": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^8.0.1",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "html-webpack-plugin": "^2.29.0",
+    "raw-loader": "^0.5.1",
+    "webpack": "^3.2.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
