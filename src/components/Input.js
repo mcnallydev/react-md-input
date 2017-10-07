@@ -1,5 +1,3 @@
-/* eslint no-eval: 0 */
-
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Container, Group, InputTag, Highlight, Bar, Label, Error } from './style';
