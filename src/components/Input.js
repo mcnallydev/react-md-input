@@ -5,9 +5,9 @@ import PropTypes from 'prop-types';
 import { Container, Group, InputTag, Highlight, Bar, Label, Error } from './style';
 
 // types
-import PatternDecimal from '../types/pattern-decimal';
-import PatternInteger from '../types/pattern-integer';
-import PatternNumber from '../types/pattern-number';
+import PatternDecimal from '../patterns/pattern-decimal';
+import PatternInteger from '../patterns/pattern-integer';
+import PatternNumber from '../patterns/pattern-number';
 
 class Input extends Component {
   constructor(props) {

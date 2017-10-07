@@ -16,15 +16,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _style = require('./style');
 
-var _patternDecimal = require('../types/pattern-decimal');
+var _patternDecimal = require('../patterns/pattern-decimal');
 
 var _patternDecimal2 = _interopRequireDefault(_patternDecimal);
 
-var _patternInteger = require('../types/pattern-integer');
+var _patternInteger = require('../patterns/pattern-integer');
 
 var _patternInteger2 = _interopRequireDefault(_patternInteger);
 
-var _patternNumber = require('../types/pattern-number');
+var _patternNumber = require('../patterns/pattern-number');
 
 var _patternNumber2 = _interopRequireDefault(_patternNumber);
 
